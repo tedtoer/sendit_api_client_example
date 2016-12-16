@@ -12,7 +12,7 @@ export default class ProviderBlock extends Component {
             <p>Тип доставки: {quote.type_name}</p>
             <p>Цена: {quote.price} руб.</p>
             <p>Срок: {quote.days} дней</p>
-            <p><a href={quote.order_url} target='_blank'>Перейти к созданию заказа</a></p>
+            <p><a href={'http://'+quote.order_url} target='_blank'>Перейти к созданию заказа</a></p>
           </div>
         )}
         <div className='separ'></div>
