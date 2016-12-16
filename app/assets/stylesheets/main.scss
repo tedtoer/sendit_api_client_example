@@ -1,0 +1,122 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font: 400 16px/22px 'Roboto', sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+a {
+  color: #008dcd;
+}
+
+input, textarea {
+  padding: 12px 20px;
+  font: 400 16px/22px 'Roboto', sans-serif;
+  color: #222;
+  background: #fff;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+}
+
+input {
+  height: 20px;
+  margin: 10px 0 10px 10px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+#root {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.top-panel {
+  height: 64px;
+  width: 960px;
+  background: #E0F5FF;
+  position: fixed;
+
+  div, input {
+    float: left;
+  }
+
+  input.from, input.to {
+    width: 288px;
+  }
+  input.weight {
+    width: 75px;
+  }
+
+  .search-btn {
+    padding: 12px 20px;
+    width: 100px;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    margin: 10px 0 10px 10px;
+    background-color: #008dcd;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+    background-image: -webkit-gradient(linear,left top,right bottom,color-stop(0,rgba(171,142,205,0)),color-stop(1,#ab8ecd));
+    background-image: -o-linear-gradient(left top,rgba(171,142,205,0) 0,#ab8ecd 100%);
+    background-image: -moz-linear-gradient(left top,rgba(171,142,205,0) 0,#ab8ecd 100%);
+    background-image: -webkit-linear-gradient(left top,rgba(171,142,205,0) 0,#ab8ecd 100%);
+    background-image: -ms-linear-gradient(left top,rgba(171,142,205,0) 0,#ab8ecd 100%);
+    background-image: linear-gradient(to left top,rgba(0,141,205,0) 0,#26B1F0 100%);
+  }
+}
+
+.quotes-list {
+  padding-top: 84px;
+}
+
+h2 {
+  padding: 74px 0 0 10px;
+}
+
+.provider-block {
+  margin-bottom: 60px;
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #CCC;
+    padding-bottom: 10px;
+  }
+
+  .quote-block {
+    width: 285px;
+    float: left;
+    margin: 0 15px 15px 0;
+    background: #EEE;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+  }
+}
+
+.separ {
+  clear: both;
+  width: 100%;
+}
